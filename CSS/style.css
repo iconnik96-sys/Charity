@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sec2divs
+{
+    width: 99%;
+    margin-bottom: 20px;
+}
+ .sec4divs
+    {
+        width: 99%;
+    }
+.sec4d
+{
+    padding: 25px;
+}
+.sec5img
+{
+    height: 150px;
+}
+.sec6
+{
+    background-image: url(../images/background/cause-bg.jpg);
+}
+.sec7d1
+{
+    padding: 40px 25px 25px 25px;
+}
+.sec8d
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+.footdiv
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer
+    {
+        font-size: smaller;
+    }
+.sec2divs
+{
+    background-color: #ecf2f5;
+}
+.sec2divs:hover
+{
+    background-color: #ff4800;
+    color: #ecf2f5;
+}
+
+.carobtn
+{
+    background-color: transparent;
+    color: #ecf2f5;
+}
+.carobtn:hover
+{
+    background-color: #ff4800;
+    color: black;
+}
+
+.foot-a
+{
+    color: white;
+}
+
+.foot-a:hover
+{
+    color: #ff4800;
+}
+
+.sec8
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
+        url('../images/background/foot-bg.jpg');
+          background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.sec4
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
+        url('../images/background/welcome-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.event-a
+{
+    text-decoration: none;
+}
+.event-a:hover
+{
+    text-decoration: underline;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 90%;
+}
+
+
+
+
+
+
+
+@media(min-width:768px){
+
+    .sec2divs
+    {
+        width: 49%;
+    }
+    .sec4d
+{
+    padding: 50px;
+}
+.sec7d1
+{
+    padding: 80px 50px 50px 50px;
+}
+.footdiv
+    {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .card
+    {
+        width: 70%;
+    }
+    .sec6 img
+    {
+        width: 100%;
+    }
+    
+}
+
+@media(min-width:992px){
+    .sec2divs
+    {
+        width: 32%;
+    }
+    .sec4divs
+    {
+        width: 45%;
+    }
+    .half
+    {
+        width: 50%;
+    }
+    .footdiv
+    {
+        width: 25%;
+    }
+    .causeimg
+    {
+        height: 200px;
+        width: 350px;
+    }
+    .card
+    {
+        width: 30%;
+         flex-shrink: 0; 
+    }
+}
