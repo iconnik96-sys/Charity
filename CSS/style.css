@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --color1: #ff4800;
+}
 
 .sec2divs
 {
@@ -62,7 +65,7 @@ img {
 }
 .sec2divs:hover
 {
-    background-color: #ff4800;
+    background-color: var(--color1);
     color: #ecf2f5;
 }
 
@@ -73,7 +76,7 @@ img {
 }
 .carobtn:hover
 {
-    background-color: #ff4800;
+    background-color: var(--color1);
     color: black;
 }
 
@@ -84,7 +87,7 @@ img {
 
 .foot-a:hover
 {
-    color: #ff4800;
+    color: var(--color1);
 }
 
 .sec8
